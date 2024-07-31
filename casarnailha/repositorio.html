@@ -105,7 +105,7 @@ if ($posttags) { ?>
 <?php
 
 
-$key = "AIzaSyDA6RpXtG3oVH6ng0Tzt-FR1FNSNzSQIec";
+$key = "example-key";
 
 // Preencher apenas um
 $user = "NiinaSecrets"; 
@@ -151,7 +151,7 @@ foreach($playlist->items as $play){ ?>
 
 <?php
 
-$api = "https://api.instagram.com/v1/users/1370232279/media/recent/?access_token=1370232279.602095d.758caf1c1b794cbf882ada42dc85b4af&count=4";  
+$api = "https://api.instagram.com/v1/users/1370232279/media/recent/?access_token=token&count=4";  
 $cachefile = json_cached_api_results($api, 'insta-info.json');
 $insta = json_decode($cachefile);
 foreach($insta->data as $obj){
