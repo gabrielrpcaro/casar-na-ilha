@@ -1,0 +1,224 @@
+.wrap .capaHACK {
+	position: relative;
+	width: 100%;
+	padding-top: 40%;
+    margin-bottom: 18px;
+  overflow: hidden;
+}
+.wrap .box-fornecedor .thumbHACK {
+	position: relative;
+	width: 100%;
+	padding-top: 55%;
+  	overflow: hidden;
+}
+.wrap .capaHACK .capa, .wrap .box-fornecedor .thumbHACK .thumb {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+    -webkit-transition: transform 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
+  -moz-transition: transform 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
+  -o-transition: transform 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
+  transition: transform 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
+  transform-origin: center;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+  transform: translateZ(0);
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+}
+.wrap .box-fornecedor .thumbHACK .thumb { background-color: #f1dbda; }
+.wrap .box-fornecedor .thumbHACK:hover .thumb {
+  transform: scale(1.1);
+}
+.caixa.forni {
+	padding: 15px 0 40px 0;
+	justify-content: inherit;
+}
+.ondinhabox.forni {
+	margin: 2px 25px 0 0px;
+	width: 93px;
+	justify-content: inherit;
+}
+.ondinhaHACK.forni {
+	 padding-top: 62%;
+}
+.descricao {
+	max-width: 338px;
+	font: italic 14px/28px "Merriweather", Georgia, serif;
+	color: #777777;
+	margin-right: 25px;
+}
+.descricao p {
+	margin: 0;
+}
+.categorias {
+	max-width: 680px;
+	-webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 2em;
+    -moz-column-gap: 2em;
+    column-gap: 2em;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+.categorias li {
+	display: flex;
+    align-items: center;
+    -webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+               break-inside: avoid;
+}
+.categorias li a {
+	font: italic 16px/30px "Playfair Display", Georgia, serif;
+	color: #D57474;
+}
+.categorias li:hover a {
+  color: #230C0D;
+}
+li.selecionati a {
+  color: #3e4b59 !important;
+}
+.categorias li a .traco {
+	padding-bottom: 0;
+	margin-top: -2px;
+}
+li.selecionati a .traco {
+	width: 100% !important;
+}
+.categorias li .estrelinha {
+	margin-right: 7px;
+	opacity: 0;
+	      -webkit-transition: opacity .5s ease;
+  -moz-transition: opacity .5s ease;
+  -o-transition: opacity .5s ease;
+  transition: opacity .5s ease;
+}
+.categorias li:hover .estrelinha {
+	opacity: 1;
+}
+li.selecionati .estrelinha {
+	opacity: 1 !important;
+}
+.lista-fornecedores {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+.lista-fornecedores .linha.forone {
+	width: 100%;
+	margin-top: 0;
+}
+.lista-fornecedores .linha h3 span {
+	text-transform: capitalize;
+}
+.box-fornecedor {
+	margin-bottom: 30px;
+	border: 1px solid #e1e9f3;
+  -webkit-transition: border .5s ease, background-color .5s ease, color .5s ease;
+  -moz-transition: border .5s ease, background-color .5s ease, color .5s ease;
+  -o-transition: border .5s ease, background-color .5s ease, color .5s ease;
+  transition: border .5s ease, background-color .5s ease, color .5s ease;
+}
+.box-fornecedor:hover {
+	border-color: transparent;
+	background: #FFEBEA;
+}
+.box-fornecedor:hover h3.nome-fornecedor {
+	color: #b56969;
+}
+.lista-fornecedores .box-fornecedor, .fakefornecedor {
+	width: 32%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+.envolve-info {
+	padding: 18px 33px 24px 33px;
+}
+.envolve-info.deinicio {
+	padding: 10px 15px 15px 15px;
+}
+.envolve-info .categoria {
+	margin-bottom: 2px;
+}
+.envolve-info .categoria a {
+	font: italic 15px/15px "Playfair Display", Georgia, serif;
+	color: #230c0b;
+	letter-spacing: 0.06em;
+}
+.envolve-info.deinicio .categoria a {
+    font: italic 13.5px/14px "Playfair Display", Georgia, serif;
+    letter-spacing: 0.04em;
+}
+.envolve-info h3 {
+	margin: 0;
+	font: bold 21px/24px "Playfair Display", Georgia, serif;
+	color: #526375;
+}
+.envolve-info.deinicio h3 {
+    font: bold 16px/22px "Playfair Display", Georgia, serif;
+}
+
+.lista-fornecedores .box-fornecedor .envolve-info .nome-fornecedor {
+	margin-top: 0;
+}
+.cards-servicos .envolve-info.deinicio .categoria a {
+	font: italic 15px/15px "Playfair Display", Georgia, serif;
+    letter-spacing: 0.06em;
+}
+.cards-servicos .envolve-info .categoria {margin: 0;}
+
+.nadaencontrdo {
+	width: 100%;
+	text-align:center;
+	padding: 20px 0;
+	color: #646464;
+	font: italic 20px/20px "Playfair Display", Georgia, serif;
+	letter-spacing: 0.02em;
+}
+
+.categresp {
+	display: none;
+}
+
+.box-servicos {
+	background-color: #fff9f8;
+    padding: 18px 33px 24px 33px;
+    font: italic 14px/22px "Playfair Display", Georgia, serif;
+    color: #808080;
+    border: 1px solid #ececec;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-right: 0;
+    text-align: center;
+}
+.box-servicos strong {
+	color: #562422;
+}
+.box-servicos a {
+	white-space: nowrap;
+    color: #D57474;
+    transition: color 0.3s ease;
+}
+.box-servicos a.link-vazio {
+	color: #343434;
+	cursor: default;
+}
+.box-servicos a:hover {
+	color: #808080;
+}
+.box-servicos a.link-vazio:hover {
+	color: #343434;
+}

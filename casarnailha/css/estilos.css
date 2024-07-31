@@ -1,0 +1,90 @@
+/* 
+/////////////////////////
+
+0. BODY & DEFINIÇÕES IMPORTANTES
+
+/////////////////////////
+*/
+
+body {
+	font: normal 14px/22px "Lato";
+	color: #212121;
+}
+
+a { color:#343434; }
+
+.wrap {
+	width: 1100px;
+	margin: 0 auto;
+	padding: 30px 0 50px 0;
+  -webkit-transition: width 0.2s linear;
+  -moz-transition: width 0.2s linear;
+  -o-transition: width 0.2s linear;
+  transition: width 0.2s linear;
+
+}
+.caixa{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+input.erro {
+  border: 1px solid #ffa3a3 !important;
+}
+
+/* Navigator */
+
+.pagenav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.pagenav:empty { display:none !important; }
+
+.pagenav .page-numbers {
+  text-align: center;
+  padding: 0 12px 15px 12px;
+  color: #a0adb9;
+  -webkit-transition: background 0.3s linear, color 0.3s linear;
+  -moz-transition: background 0.3s linear, color 0.3s linear;
+  -o-transition: background 0.3s linear, color 0.3s linear;
+  transition: background 0.3s linear, color 0.3s linear;
+
+} 
+
+.pagenav .page-numbers:hover span {
+	background: #d57474;
+    color: #fff;
+}
+
+.pagenav .page-numbers span {
+	display: block;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    line-height: 42px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+  -webkit-transition: background 0.3s linear, color 0.3s linear;
+  -moz-transition: background 0.3s linear, color 0.3s linear;
+  -o-transition: background 0.3s linear, color 0.3s linear;
+  transition: background 0.3s linear, color 0.3s linear;
+}
+.pagenav .page-numbers.current span {
+	background: #d57474;
+    color: #fff;
+}
+.pagenav .page-numbers.next span:before {
+  font-family: 'Font Awesome 5 Free';
+  content: "\f054";
+}
+.pagenav .page-numbers.prev span:before {
+  font-family: 'Font Awesome 5 Free';
+  content: "\f053";
+}

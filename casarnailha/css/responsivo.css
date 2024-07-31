@@ -1,0 +1,1251 @@
+
+/*
+
+1100
+
+*/
+@media (max-width:1100px) {
+	.wrap {	
+		width: 700px;
+	    padding: 30px 0 50px 0;
+	}
+
+/* HEADER */
+
+	.wrap .caixa.upper,  .wrap .caixamenu {
+		flex-direction: column;
+    	align-items: center;
+	} 
+	.wrap .caixabanner {
+		display: none;
+	}
+	.wrap .caixalogo {
+		width: 45%;
+		margin-bottom: 20px;
+	}
+	.corda {
+		background-image: none;
+		width: auto;
+		margin-bottom: 10px;
+	}
+	.corda .menu li {
+    	padding: 0 12px;
+	}
+    .wrap .caixabusca {
+    	width: 100%;
+    }
+    .wrap .caixabusca form.busca {
+    justify-content: center;
+	}
+	.wrap .caixabusca .busca-categoria{
+		margin-right: 15px;
+	}
+	.wrap .caixabusca .busca-nome{
+		margin-right: 12px;
+	}
+	.wrap .caixabusca .buscartt {
+		margin-right: 0;
+	}
+	.caixabusca form button {
+    margin-right: 0;
+    }
+
+/* HOME */
+    .home .wrap .caixahome .degrade {
+    	padding: 10px;
+    }
+    .home .wrap .caixahome .degrade .coluna {
+    	max-width: auto;
+    }
+    .home .wrap .caixahome .degrade .intro {
+    	margin-top: 0;
+    	font-size: 18px;
+    	line-height: 18px;
+    }
+    .home .wrap .caixahome .degrade h2 {
+	    font: bold 18px "Playfair Display", Georgia, serif;
+	    line-height: 28px;
+	    margin: 5px 0 25px 0;
+    }
+    .home .wrap .caixahome .degrade .subtitulo{
+	    display: none;
+	}
+    .home .wrap .caixahome .degrade .coluna a{
+	font: bold 12px/12px Lato, serif;
+    padding: 10px 18px;
+	}
+	.home .wrap .caixahome .degrade .coluna a i {
+	margin-right: 9px;
+	}
+	.home .wrap .caixahome .principal .destaqueHACK {
+		padding-top: 65.9%;
+	}
+	.home .wrap .pesquisa-noiva {
+		padding: 22px;
+		height: auto;
+	}
+	.home .wrap .pesquisa-noiva form {
+		flex-wrap: wrap;
+	}
+	.home .wrap .pesquisa-noiva form .eupreciso {
+		text-align: center;
+		margin-right: 0;
+		margin-bottom: 15px;
+		width: 100%;
+	}
+	.home .wrap .pesquisa-noiva .pesquisa-categoria {
+		display: none;
+	}
+	.pesquisa-noiva form .pesquisa-necessidade {
+		margin-right: 15px;
+		margin-bottom: 0; 
+	}
+	.pesquisa-noiva form .pesquisa-necessidade select {
+		height: 40px;
+	}
+	.pesquisa-noiva form button {
+		height: auto;
+		width: auto;
+		padding: 15px 23px;
+	}
+
+
+/* HOME MOSAICO */
+
+	.mosaico-posts .primeirobloco {
+	    flex-direction: row;
+	    width: 100%;
+	    margin-bottom: 18px;
+	    justify-content: space-between;
+	}
+	.mosaico-posts .post.slim {
+    	margin-bottom: 0;
+	}
+	.mosaico-posts .post, .mosaico-posts .post.slim, .mosaico-posts .post.wide {
+	    width: 341px;
+	    height: auto;
+    }
+    .mosaico-posts .post .postHACK,  .mosaico-posts .post .postHACK.slim, .mosaico-posts .post .postHACK.wide{
+    	padding-top: 83.3%;
+	}
+	.mosaico-posts .segundobloco {
+    	width: 100%;
+    }
+    .mosaico-posts .segundobloco a.banni {
+    	order: 3;
+    	width: 100%;
+    	text-align: -webkit-center;
+    }
+    .mosaico-posts .segundobloco a:nth-child(1) {
+    	order: 1;
+    }
+    .mosaico-posts .segundobloco a:nth-child(2) {
+    	order: 2;
+    }
+    .mosaico-posts .segundobloco a:nth-child(3) {
+    	order: 4;
+    }
+    .mosaico-posts .segundobloco a:nth-child(5) {
+    	order: 5;
+    }
+    .mosaico-posts .degrade.girado h2 {
+    	font-size: 18px;
+    }
+    .mosaico-posts .degrade.girado .cat-post {
+    	font-size: 17px;
+    }
+    .mosaico-posts .degrade.girado {
+    padding: 0 30px 25px 30px;
+}
+
+
+/* FOOTER */
+
+	.wrap .caixanews {
+		padding: 40px 35px;
+	}
+	.wrap .caixanews .ladotexto {
+		padding-left: 0;
+		width: auto;
+		margin-right: 20px;
+	}
+	.wrap .caixanews .ladotexto h3 {
+		font: italic 27px/35px "Playfair Display", Georgia, serif;
+		margin-bottom: 37px;
+
+	}
+	.wrap .caixanews .ladotexto .textinho {
+		display: none;
+	}
+	.wrap .caixanews .ladoform {
+		padding-right: 0;
+	}
+	.wrap .caixanews .ladoform form {
+		width: 331px;
+	}
+	.wrap .caixanews .ladoform form input {
+		font: italic 16px/16px "Playfair Display", serif;
+		height: 40px;
+		margin-bottom: 19px;
+	}
+	.wrap .caixanews .ladoform form button {
+		width: 182px;
+    	height: 40px;
+    	font: bold 11px/11px Lato, serif;
+    	padding: 0;
+    	margin-top: 0;
+	}
+	.wrap .caixanews .ladoform form button i {
+		margin-right: 8px;
+		font-size: 15px;
+	}
+	.wrap .linha .triguinho {
+		width: 11%;
+	}
+	.wrap .linha h4 {
+		padding: 0 20px;
+    	font: italic 17px/27px "Playfair Display", Georgia, serif;
+	}
+	.wrap .linha h4 a {
+		font: bold 19px/27px "Playfair Display", Georgia, serif;
+	}
+	.wrap .logo-rodape {
+		width: 150px;
+    	margin-right: 25px;
+	}
+	.links-faceis, .guia-rodape, .noiva-ansiosa {
+    margin-top: 0;
+	}
+	.links-faceis {
+    margin-right: 15px;
+    min-width: 161px;
+	}
+	.links-faceis li a {
+    font: italic 14px/27px "Merriweather", serif;
+	}
+	.guia-rodape {
+		margin-right: 15px;
+		column-gap: 10%;
+	}
+	.guia-rodape h3 a {
+    font: italic 16px/20px "Playfair Display", Georgia, serif;
+	}
+	.guia-rodape li a {
+    font: italic 13px/24px "Merriweather", serif;
+	}
+	.noiva-ansiosa .tamanhonoiva {
+    width: 120px;
+	}
+
+
+
+/* SINGLE */
+
+	.wrap .capaHACK {
+    padding-top: 53%;
+	}
+	.sobrebox .sobre {
+	width: 100%;
+	font: normal 13px/25px Lato, sans-serif;
+	}
+	.sobrebox .ladodireito {
+	display: none;
+	}
+	.sobrebox .sobre h2 {
+    font: normal 28px/33px "Playfair Display", Georgia, serif;
+    padding-bottom: 20px;
+	}
+	.sobrebox .sobre .texto h2 {
+    font: normal 22px/26px "Playfair Display", Georgia, serif;
+    padding-bottom: 15px;
+	}
+
+	.texto .wp-caption .wp-caption-text {
+		font-size: 11px;
+	}
+
+
+/* FORNECEDORES */
+
+	.caixa.forni {
+		flex-wrap: wrap;
+		padding: 15px 0 40px 0;
+	}
+	.caixa.forni .descricao {
+		max-width: 576px;
+		font: italic 13px/26px "Merriweather", Georgia, serif;
+		margin-right: 0;
+	}
+	.ondinhabox.forni {
+    margin: 6px 25px 0 0px;
+	}
+	.caixa.forni .categorias {
+		max-width: 100%;
+		column-count: 4;
+		padding: 18px 0 6px 0;
+	}
+	.categorias li .estrelinha {
+    margin-right: 6px;
+    width: 15px;
+    height: 15px;
+	}
+	.categorias li a {
+    font: italic 14.3px/28px "Playfair Display", Georgia, serif;
+	}
+	.box-fornecedor {
+    margin-bottom: 16px;
+	}
+	.wrap .box-fornecedor .thumbHACK {
+    padding-top: 53.4%;
+	}
+	.box-fornecedor .envolve-info {
+    padding: 10px 15px 15px 15px;
+	}
+	.envolve-info .categoria a {
+    font: italic 13.5px/14px "Playfair Display", Georgia, serif;
+    letter-spacing: 0.04em;
+	}
+	.envolve-info h3 {
+    margin: 0;
+    font: bold 16px/22px "Playfair Display", Georgia, serif;
+	}
+
+/* FORNECEDOR-SINGLE */
+
+	.topo-fornecedor .logo-fornecedor {
+    margin-right: 20px;
+    }
+    .topo-fornecedor .envolve-info.topi {
+    padding: 0;
+	}
+	.topo-fornecedor .categoria {
+    font: italic 14px/14px "Playfair Display", Georgia, serif; 
+	}
+	.topo-fornecedor .envolve-info .nome-social {
+    margin-bottom: 3px;
+	}
+	.topo-fornecedor .envolve-info .nome-social .nome-fornecedor {
+    margin: 0 12px 10px 0;
+    font: bold 23px/23px "Playfair Display", Georgia, serif;
+	}
+	.topo-fornecedor .envolve-info .nome-social .social a {
+    padding-left: 9px;
+	}
+	.topo-fornecedor .envolve-info .nome-social .social a:first-child {
+    padding-left: 0;
+	}
+	.topo-fornecedor .envolve-info .nome-social .social a i {
+    font-size: 23px;
+	}
+	.topo-fornecedor .endereco {
+    font: normal 11px Lato, sans-serif;
+    margin: 0 0 6px 3px;
+	}
+	.topo-fornecedor .endereco i {
+    font-size: 18px;
+    padding-right: 7px;
+    padding-bottom: 3px;
+	}
+	.topo-fornecedor .info-contato div {
+    margin-left: 18px;
+	}
+	.topo-fornecedor .info-contato div:first-child {
+    margin-left: 0px;
+	}
+	.topo-fornecedor .info-contato .email {
+    font: italic 13px "Playfair Display", serif;
+	}
+	.topo-fornecedor .info-contato i {
+    font-size: 18px;
+    padding-right: 7px;
+	}
+	.midia-fornecedor .capaHACK.fotone {
+    padding-bottom: 0;
+    padding-top: 55.3%;
+    margin: 0;
+	}
+	.midia-fornecedor .fotinhas .capaHACK.fotinhe {
+    padding-bottom: 0;
+    padding-top: 58%;
+    margin: 0;
+	}
+	.midia-fornecedor .degrade.girado.vidi {
+		padding: 12px;
+	}
+	.midia-fornecedor .degrade.girado i {
+    font-size: 24px;
+    margin-right: 8px;
+	}
+	.midia-fornecedor .degrade.girado h2 {
+    margin: 2px 0 0 0;
+    font: 300 18px/18px "Khand", sans-serif;
+	}
+	.fotinhas .veja-mais {
+    max-height: auto;
+    text-align: center;
+    padding: 23px 17px;
+	}
+	.veja-mais i {
+    font-size: 22px;
+    padding-right: 9px;
+	}
+	.veja-mais p {
+    margin: 0;
+    font: italic 14px/15px "Playfair Display", Georgia, serif;
+	}
+	.caixa .ondinhabox.forni.lo {
+    display: none;
+	}
+	.caixa.lo .descricao-fornecedor {
+    max-width: 637px;
+    margin: 0 24px 10px 0;
+    font: italic 14px/28px "Merriweather", serif;
+	}
+	.box-promocao {
+    max-width: 284px;
+    border: 1px solid #dce2e6;
+    padding: 20px;
+	}
+	.box-promocao h3 {
+    font: 300 20px/20px "Khand", sans-serif;
+    margin: 0 0 6px 0; 
+	}
+	.box-promocao i {
+    padding-right: 9px;
+    margin-bottom: 4px;
+    font-size: 23px; 
+	}
+	.box-promocao .snip {
+    font: italic 13px/22px "Merriweather", serif;
+	}
+
+	.boxcontato {
+   padding: 35px 25px;
+    margin-top: 25px;
+	}
+	.boxcontato .online {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    max-width: 100%
+    width: 100%;
+    margin-right: 0;
+	}
+	.boxcontato .online h3 {
+    font: italic 25px/26px "Playfair Display", Georgia, serif;
+    margin: 0;
+	}
+
+	.boxcontato .colunacontato {
+	max-width: 247px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+	}
+	.boxcontato .colunacontato b.chamada {
+    font: normal 10.5px/11px Lato, sans-serif;
+    margin-bottom: 13px;
+	}
+	.boxcontato .colunacontato .botoes-contato {
+    flex-direction: column;
+    align-items: center;
+	}
+	.botoes-contato div.whatsapp {
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 15px;
+    margin-right: 0;
+    width: 276px;
+    flex-wrap: nowrap;
+	}
+	.botoes-contato div {
+    flex-direction: row;
+    width: 276px;
+    height: 48px;
+	}
+	.botoes-contato div.zoom {
+	width: 276px;	
+	}
+	.botoes-contato div i {
+    margin-right: 7px;
+    font-size: 20px;
+	}
+	.botoes-contato div p {
+    margin: 0 0 4px 0;
+    font: bold 15px "Playfair Display", Georgia, serif;
+	}
+	.whatsapp .numerinho {
+    font: italic 11.5px/17px "Merriweather", serif;
+    margin-left: 6px;
+	}
+
+
+	.wrap .marca-apoio {
+	width: 32%;
+	}
+
+
+
+}
+
+/*
+
+700
+
+*/
+@media (max-width:700px) {
+
+	/* HEADER */
+
+	.wrap {
+	width: 100%;
+	padding: 20px;
+	}
+	.popupnews {
+	padding: 25px;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	}
+
+	.popupnews h3 {
+    font: normal 28px/30px "Khand",Georgia,serif;
+}
+
+.popupnews form input {
+    font: italic 18px/13px "Playfair Display",serif;
+    padding: 12px 20px;
+}
+
+
+
+	.popupnews .relativa {
+    width: 100%;
+	}
+	.popupnews .nome-sobrenome {
+	width: 100%;
+	}
+	.popupnews .nome-sobrenome #nomone {
+	width: 100%;
+	margin-bottom: 10px;
+	}
+	.popupnews .email-noiva {
+	width: 80%;
+	margin-right: 0;
+	}
+	.popupnews .email-noiva #emelo {
+	width: 100%;
+	}
+	.popupnews form button {
+	margin-left: auto;
+	}
+
+	.wrap .caixa.upper {
+	margin-top: 53px;
+	}
+	.wrap .caixalogo {
+    width: 80%;
+	}
+	.wrap .caixamenu .corda {
+	display: none;
+	}
+	.wrap .caixamenu .fixoresp {
+	display: block;
+	width: 100%;
+	height: 45px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    z-index: 999;
+	background: #F2E7F2;
+	}
+	.wrap .caixamenu .cordaresp {
+	position: relative;
+	}
+	.cordaresp .icone {
+    padding: 4px 0 0;
+    vertical-align: middle;
+    float: left;
+	width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	}
+	.cordaresp .icone .tracadinhos {
+	width: 26px;
+	}
+	.cordaresp .icone .bar {
+    width: 100%;
+    height: 3px;
+    margin: 0 0 6px;
+    background: #d57474;
+	}
+	.cordaresp .icone i {
+	font-size: 28px;
+	color: #d57474;
+	display: none;
+	}
+	#xisxis {
+	display: none;
+	}
+
+	.cordaresp .menuresp {
+	width: 100%;
+	position: fixed;
+    height: auto;
+    top: 31px;
+    z-index: 999;
+    background: #F2E7F2;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0s linear 0s,opacity 600ms;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    border-bottom: 2px solid #d57474;
+    padding: 0 5%;
+    list-style: none;
+    text-align: center;
+    padding-bottom: 20%;
+	}
+	.cordaresp .lupa {
+	float: right;
+	width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	}
+	.cordaresp .lupa i {
+	font-size: 25px;
+	color: #d57474;
+	}
+	.cordaresp .menuresp li a {
+		color: #D57474;
+		width: 100%;
+		display: block;
+		font: italic 20px/33px "Playfair Display", Georgia, serif;
+	}
+	.cordaresp .menuresp li {
+	    border-top: 1px solid #ecdbec;
+	    padding: 10px 0;
+	}
+	.cordaresp .menuresp li:first-child {
+		border-top: 0;
+	} 
+
+
+	.wrap .caixabusca {
+	position: fixed;
+    height: auto;
+    top: 45px;
+    z-index: 999;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0s linear 0s,opacity 600ms;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+	}
+	.cordaresp .menuresp.aberto, .caixabusca.aberto {
+    opacity: 1;
+    visibility: visible;
+	}
+	.wrap .caixabusca form.busca {
+	flex-wrap: wrap;
+	padding: 23px 20px 29px 20px;
+	justify-content: flex-start;
+	}
+	.wrap .caixabusca form.busca .buscartt {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 12px 0;
+	}
+	.wrap .caixabusca .busca-categoria {
+		margin-bottom: 11px;
+		width: 100%;
+		margin-right: 0px;
+	}
+	.wrap .caixabusca form select {
+    min-width: 100%;
+	}
+	.wrap .caixabusca .busca-nome {
+    width: 83%;
+    margin: 0; 
+	}
+	.wrap .caixabusca form input {
+    min-width: 100%;
+	}
+	.wrap .caixabusca form button {
+    margin-right: 10px;
+    margin-left: auto;
+	}
+	.wrap .caixabusca form button i {
+	font-size: 24px;
+	}
+
+	/* INDEX */
+
+	.wrap .caixa {
+    flex-direction: row;
+    flex-wrap: wrap;
+	}
+	.wrap .caixa .principal {
+	width: 100%;
+	}
+	.home .wrap .caixahome .principal .destaqueHACK {
+    padding-top: 75.9%;
+	}
+	.home .wrap .caixahome .degrade {
+    position: inherit;
+    width: 100%;
+    height: auto;
+    background: rgba(130, 121, 130,1);
+    align-items: flex-start;
+    padding: 27px 22px 30px 22px;
+	}
+	.caixahome .degrade .ondinhabox {
+	display: none;
+	}
+	.home .wrap .caixahome .degrade h2 {
+    margin: 5px 0 20px 0;
+	}
+	.home .wrap .caixahome .degrade .subtitulo {
+    display: block;
+    margin-bottom: 23px;
+	}
+	.home .wrap .pesquisa-noiva {
+	margin-top: 25px;
+       padding: 27px 22px 35px;
+	}
+	.pesquisa-noiva form .pesquisa-necessidade {
+    margin-right: 0;
+    margin-bottom: 15px;
+    width: 100%;
+	}
+	.pesquisa-noiva form .pesquisa-necessidade select {
+	min-width: 100%;
+	width: 100%;
+	padding-left: 19px;	
+	}
+	.home .wrap .pesquisa-noiva .pesquisa-categoria {
+    display: inline-block;
+    margin-right: 0;
+    margin-bottom: 25px;
+    width: 100%;
+	}
+	.pesquisa-noiva form .pesquisa-categoria select {
+    min-width: 100%;
+    height: 40px;
+	}
+
+	.programacao {
+		flex-wrap: wrap;
+	}
+	.programacao .banner_programacao {
+		width: 100%;
+		margin-top: 20px;
+	}
+	.programacao .banner_programacao:first-child {
+		margin-top: 0;
+	}
+
+	.wrap .linha {
+	margin: 30px 0 25px 0;	
+	}
+	.wrap .linha .triguinho {
+	display: none;	
+	}
+	.wrap .linha h3 {
+	padding: 0;
+	font: italic 25px/30px "Playfair Display", Georgia, serif;
+	text-align: center;
+	}
+	.wrap .mosaico-posts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	}
+	.wrap .mosaico-posts a {
+	width: 100%;
+	}
+	.mosaico-posts .post .postHACK, .mosaico-posts .post .postHACK.slim, .mosaico-posts .post .postHACK.wide {
+    padding-top: 74.3%;
+	}
+	.wrap .mosaico-posts .primeirobloco {
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+	}
+	.mosaico-posts .post, .mosaico-posts .post.slim, .mosaico-posts .post.wide {
+    width: 100%;
+    height: auto;
+	}
+	.mosaico-posts .post.slim {
+	margin-bottom: 18px;
+	}
+	.wrap .mosaico-posts .segundobloco {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+	}
+	.mosaico-posts .degrade.girado h2 {
+    font: bold 21px/22px "Playfair Display", Georgia, serif;
+	}
+	.mosaico-posts .degrade.girado .cat-post {
+    font-size: 20px;
+	}
+	.mosaico-posts .degrade.girado {
+	opacity: 1;
+	}
+
+	/* FOOTER */
+
+	.wrap .caixanews {
+	padding: 35px 23px;
+	flex-wrap: wrap;
+	}
+	.wrap .caixanews .ladotexto {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    margin-right: 0;
+	}
+	.wrap .caixanews .ladotexto h3 {
+    font: italic 26px/31px "Playfair Display", Georgia, serif;
+    margin-bottom: 20px;
+    text-align:center;
+	}
+	.wrap .caixanews .ladoform form {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+	}
+	.wrap .caixanews .nome-sobrenome, .caixanews .email-noiva {
+    width: 100%;
+	}
+	.wrap .caixanews form input {
+	width: 100%
+	}
+	.wrap .caixanews .ladoform form button {
+	margin: 0 auto;
+	}
+	.wrap .linha h4 {
+    padding: 0;
+    font: italic 23px/30px "Playfair Display", Georgia, serif;
+    text-align: center;
+	}
+	.wrap .linha h4 a {
+    font: bold 21px/30px "Playfair Display", Georgia, serif;
+	}
+	.wrap .boxinsta {
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 40px;
+	}
+	.wrap .boxinsta .instinha {
+    width: 48%;
+    opacity: 1;
+    margin-bottom: 4vw;
+	}
+	.wrap .boxinsta .instinha:last-child {
+	display: none;
+	}
+	.wrap .linha .triguinho.divu {
+		display: block;
+		width: 24%;
+	}
+	.wrap .linha .divo {
+		padding: 0 10px 3px 10px;
+	}
+	.wrap .marca-apoio {
+	width: 49%;
+	}
+
+	.wrap .rodape {
+	padding: 25px 0 0 0;
+	}
+	.wrap .central {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	}
+	.wrap .links-rodape {
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+	}
+	.wrap .logo-rodape {
+    width: 60%;
+    margin-right: 0;
+    margin-bottom: 20px;
+	}
+	.links-faceis li {
+	display: inline-block;
+	}
+	.links-faceis {
+    margin-right: 0;
+    min-width: 100%;
+    margin-bottom: 20px;
+	}
+	.links-faceis ul {
+	text-align: center;
+	}
+	.links-faceis ul li::before {
+	display: inline-block;
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyAKIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIgogd2lkdGg9IjE3cHgiIGhlaWdodD0iMTdweCIgdmlld0JveD0iMCAwIDE3IDE3Ij4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiAgZmlsbD0icmdiKDE5NCwgMjAzLCAyMTEpIgogZD0iTTE0LjUxMiwxMC45OTAgTDE3LjAwMiw4LjUwMCBMMTQuNTEyLDYuMDEwIEwxNC41MTIsMi40ODggTDEwLjk5MCwyLjQ4OCBMOC41MDAsLTAuMDAyIEw2LjAxMCwyLjQ4OCBMMi40ODgsMi40ODggTDIuNDg4LDYuMDEwIEwtMC4wMDIsOC41MDAgTDIuNDg4LDEwLjk5MCBMMi40ODgsMTQuNTEyIEw2LjAxMCwxNC41MTIgTDguNTAwLDE3LjAwMiBMMTAuOTkwLDE0LjUxMiBMMTQuNTEyLDE0LjUxMiBMMTQuNTEyLDEwLjk5MCBaIi8+Cjwvc3ZnPg==);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 5px;
+	}
+	.links-faceis ul li:first-child:before {
+	display: none;	
+	}
+	.guia-rodape {
+    margin-right: 0;
+    margin-bottom: 15px;
+	}
+	.noiva-ansiosa {
+    width: 100%;
+    text-align: -webkit-center;
+    display: flex;
+    align-items: center;
+	}
+	.links-rodape .noiva-ansiosa h3 {
+    font: italic 22px/23px "Playfair Display", Georgia, serif;
+    margin-bottom: 15px;
+	}
+	.noiva-ansiosa .tamanhonoiva {
+    width: 33%;
+	}
+	.wrap .central .centraliza {
+	width: 100%;
+	}
+	.wrap .rodape .central a.yd {
+	margin: 0 auto;
+	width: 38%;
+	}
+	.noiva-ansiosa .assinatura {
+    max-width: 100%;
+	}
+	.noiva-ansiosa .studio { display: none; }
+	.wrap .banner-rodape {
+    width: 100%;
+	}
+
+	.texto .wp-caption .wp-caption-text {
+		margin: 15px;
+	}
+
+	/* FORNECEDORES */
+	.pagenav { margin-top: 20px; }
+	.wrap .capaHACK {
+    padding-top: 53%;
+	}
+	.wrap .caixa.forni {
+	padding: 0;
+	margin-bottom: 30px;
+	}
+	.wrap .ondinhabox.forni {
+    display: none;
+	}
+	.wrap .caixa.forni .descricao {
+    max-width: 100%;
+    font: italic 16px/35px "Merriweather", Georgia, serif;
+    margin-right: 0;
+    text-align: center;
+    margin-bottom: 18px;
+
+	}
+
+.home .wrap .caixahome .degrade .coluna { text-align: center; }
+	.home .wrap .caixahome .degrade .coluna a {
+    font: bold 15px/15px Lato,serif;
+    letter-spacing: 0.05em;
+    padding: 15px 18px;
+    width: 100%;
+    display: inline-block;
+}
+
+	.categresp {
+	border-radius: 30px;
+    display: inline-block;
+    overflow: hidden;
+    border: 1px solid #D3DDE9;
+    position: relative;
+    width: 100%;
+	}
+
+	.categoriasresp {
+	font: italic 16px/16px Georgia, serif;
+    min-width: 100%;
+    height: 45px;
+    border: 0px;
+    outline: none;
+    background: #ffffff;
+    color: #979797;
+    letter-spacing: .05em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    padding-left: 20px;
+	}
+
+	.categresp:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    bottom: 0;
+    z-index: 9;
+    pointer-events: none;
+    width: 0;
+    margin: -3px 0 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #A1B2C3;
+    -webkit-transition: .5s border ease;
+    -o-transition: .5s border ease;
+    transition: .5s border ease;
+	}
+
+	.caixa.forni ul.categorias {
+		display: none;
+	}
+
+	.lista-fornecedores .box-fornecedor, .fakefornecedor {
+    width: 49%;
+	}
+	.lista-fornecedores .box-fornecedor {
+    margin-bottom: 2vw;
+	}
+	.wrap .box-fornecedor .thumbHACK {
+    padding-top: 62.4%;
+	}
+	.wrap .box-fornecedor .envolve-info {
+    padding: 10px 12px 14px 12px;
+	}
+	.wrap .box-fornecedor .envolve-info .categoria {
+	margin-bottom: 0;
+	}
+	.wrap .box-fornecedor .envolve-info .categoria a {
+    font: italic 13px/14px "Playfair Display", Georgia, serif;
+	}
+	.envolve-info h3 {
+    margin: 0;
+    font: bold 15.6px/22px "Playfair Display", Georgia, serif;
+	}
+
+	/* FORNECEDORES-SINGLE */
+
+
+	.wrap .topo-fornecedor { flex-wrap: wrap; }
+	.wrap .topo-fornecedor .logo-fornecedor {
+	display: block;
+	margin: 25px auto;
+	}
+	.wrap .envolve-info .categoria {
+    margin-bottom: 9px;
+	}
+	.wrap .topo-fornecedor .envolve-info.topi {
+	text-align: center;
+	width: 100%;
+	}
+	.wrap .topo-fornecedor .envolve-info .nome-social {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 9px;
+	}
+.topo-fornecedor .envolve-info .nome-social .social {
+    margin-bottom: 5px;
+    display: block;
+    width: 100%;
+}
+	.wrap .topo-fornecedor .envolve-info .nome-social .nome-fornecedor {
+		margin: 0 0 13px 0;
+		font: bold 23px/23px "Playfair Display", Georgia, serif;
+	}
+	.wrap .topo-fornecedor .envolve-info .nome-social .social a i {
+    font-size: 27px;
+    display: inline-block;
+    vertical-align: middle;
+}
+	
+	.wrap .topo-fornecedor .endereco {
+    font: normal 11.5px/15px Lato, sans-serif;
+    margin: 0 0 21px 0;
+    padding: 19px 0;
+    border-top: 1px solid #e1e9f3;
+    border-bottom: 1px solid #e1e9f3;
+	}
+	.wrap .topo-fornecedor .info-contato {
+	justify-content: center;
+	}
+	.wrap .topo-fornecedor .info-contato .email {
+	margin-bottom: 17px;
+	padding-bottom: 19px;
+	width: 100%;
+	font-size: 14px;
+	word-break: break-word;
+	justify-content:center;
+	border-bottom: 1px solid #e1e9f3;
+	}
+	.wrap .topo-fornecedor .info-contato .telefone {
+	margin: 0 10px 0 10px;
+	}
+	.topo-fornecedor .info-contato i {
+    font-size: 20px;
+	}
+	.topo-fornecedor .info-contato .telefone, .telefone.wh a {
+    font: normal 14px/25px Lato, sans-serif;
+	}
+	.fas.fa-phone-alt.fa-lg {
+	padding-top: 5px;
+	}
+	.midia-fornecedor {
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+	}
+	.midia-fornecedor .fotao {
+    width: 100%;
+	}
+	.midia-fornecedor .capaHACK.fotone {
+    padding-top: 68.3%;
+	}
+	.midia-fornecedor .fotinhas {
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+	}
+	.midia-fornecedor .fotinhas .fotinha {
+    width: 50%;
+	}
+	.midia-fornecedor .fotinhas a.mais {
+	width: 100%;
+	}
+	.midia-fornecedor .fotinhas .veja-mais p {
+    margin: 0;
+    font: italic 15px/15px "Playfair Display", Georgia, serif;
+	}
+	.midia-fornecedor .fotinhas .capaHACK.fotinhe {
+    padding-top: 70%;
+	}
+	.caixa.lo .box-promocao {
+		max-width: 100% !important;
+		margin: 15px 0 0 0;
+		padding:25px;
+		text-align: center;
+	}
+	.box-promocao .snip {
+    font: italic 16px/27px "Merriweather",serif;
+}
+
+.wrap .caixanews .ladoform form input {
+    font: italic 19px/19px "Playfair Display",serif;
+    padding: 12px 20px;
+    height: auto;
+  }
+
+
+.box-promocao h3 {
+    font: 300 28px/20px "Khand",sans-serif;
+    margin: 0 0 10px;
+}
+
+.home .wrap .caixahome .degrade h2 { font-size:25px !important }
+.wrap .topo-fornecedor .endereco { justify-content: center; }
+	.wrap .boxcontato {
+    flex-wrap: wrap;
+    text-align: center;
+	}
+	.wrap .boxcontato .online {
+    flex-wrap: nowrap;
+	}
+	.boxcontato .blink-me {
+    display: none;
+	}
+.wrap .boxcontato .online h3 {
+    font: italic 29px/37px "Playfair Display", Georgia, serif;
+    margin-bottom: 19px;
+    max-width: 100% !important;
+	}
+	.wrap .boxcontato .colunacontato {
+    max-width: 100%;
+    width: 100%;
+	}
+	.boxcontato .colunacontato b.chamada {
+    font: normal 12px/14px Lato, sans-serif;
+    margin-bottom: 13px;
+	}
+	.links-externos {
+    margin: 0 0 20px 0;
+    flex-wrap: wrap;
+	}
+    .links-externos .linkinho {
+    width: 100%;
+    margin-bottom: 15px;
+	}
+	.links-externos .linkinho a .degrade.giradi {
+	opacity: 1;
+	background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+	}
+	.links-externos .linkinho a .degrade.giradi h2 {
+    margin: 0;
+    font-size: 20px;
+    line-height: 23px;
+	}
+
+.banner-post .postHack .postHACK { padding-top: 83%; }
+.topo-fornecedor { padding-top:0; border-top:0; }
+
+
+	/* FORMULARIO */
+.pesquisa-noiva form button { width: 100%; }
+
+	.popupnews .closenews { font-size:30px; right:-15px; }
+
+
+.sobrebox { flex-wrap: wrap; }
+.sobrebox .ladodireito { display:block; width:100%; }
+
+	.sobrebox .sobre .tipo {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 0;
+	}
+	.sobrebox .sobre .tipo h3 {
+    margin: 0;
+    padding-bottom: 10px;
+    font: italic 25px/25px "Playfair Display", Georgia, serif;
+    color: #a0846d;
+	}
+	.sobrebox .sobre .tipo .direitela {
+    margin-bottom: 0;
+    display: flex;
+	}
+	.sobrebox .sobre .tipo a {
+    font: italic 16.5px/18.5px "Playfair Display", Georgia, serif;
+    color: #737373;
+    padding: 16px 23px;
+    margin-left: 0;
+	}
+	.sobrebox .sobre .acf-fields > .acf-field {
+    width: 100%;
+	}
+	.sobrebox .sobre .acf-form-submit input {
+    width: 100%;
+    margin-bottom: 30px;
+	}
+.sobrebox .sobre .acf-form-fields { padding:20px 10px !important; }
+
+}

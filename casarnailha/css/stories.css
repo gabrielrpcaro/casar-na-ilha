@@ -1,0 +1,50 @@
+.box-web-stories .bloco.stories {
+    margin: 0 0 35px;
+}
+
+.box-web-stories .bloco.stories ul.links {
+	width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 30px 0 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box-web-stories .bloco.stories ul.links .link-item {
+	width: 23.5%;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 25px;
+}
+
+.box-web-stories .bloco.stories ul.links .link-item .thumbe {
+	height: 350px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 0 10px;
+    -webkit-transition: .4s opacity ease;
+    -o-transition: .4s opacity ease;
+    -moz-transition: .4s opacity ease;
+    transition: .4s opacity ease;	
+}
+.box-web-stories .bloco.stories ul.links .link-item:hover .thumbe {
+    opacity: .8;
+}
+
+.story-title {
+    font: normal 20px/26px "Playfair Display", Georgia, serif;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
+.story-title a {
+    color: #b56969;
+
+}
+
+.box-web-stories .sobrebox .sobre {
+    width: 100%;
+} 

@@ -1,0 +1,111 @@
+/*
+Theme Name: Casar na Ilha
+Theme URI: http://blank
+Author: Young Dog Studio
+Author URI: http://facebook.com/youngdogstudio
+Description: Blank Description
+Version: 1.0
+Text Domain: blank
+
+HTML5 Boilerplate.
+Créditos para Nicolas Gallagher, Jonathan Neal
+Alterações: Phellipe Wanderley
+Base styles: Opinionated Default
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Khand&family=Lato:wght@400;900&family=Merriweather:ital@1&family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
+@import url('css/reset.css');
+@import url('css/guia.css?v=7');
+@import url('css/fornecedor.css?v=9');
+@import url('css/home.css?v=21');
+@import url('css/sobre.css?v=22');
+@import url('css/estilos.css?v=3');
+@import url('css/stories.css?v=1');
+@import url('css/responsivo.css?v=22');
+
+
+
+
+@media only screen
+and (max-width: 1200px) {
+
+}
+
+@media only screen
+and (max-width: 940px) {
+	
+}
+
+@media only screen
+and (max-width: 600px) {
+
+}
+
+
+/*
+
+IMPRESSÃO
+
+*/
+
+@media print {
+* {
+	background: transparent !important;
+	color: #000 !important; /* Black prints faster: h5bp.com/s */
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+
+a, a:visited {
+	text-decoration:none;
+}
+
+a[href]:after {
+	content: " (" attr(href) ")";
+}
+
+abbr[title]:after {
+	content: " (" attr(title) ")";
+}
+
+
+/* Don't show links for images, or javascript/internal links */
+
+.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+	content: "";
+}
+
+pre, blockquote {
+	 border: 1px solid #999;
+	 page-break-inside: avoid;
+}
+
+thead {
+	display: table-header-group; /* h5bp.com/t */
+}
+
+tr, img {
+	page-break-inside: avoid;
+ }
+
+img {
+	 max-width: 100% !important;
+}
+
+@page {
+	margin: 0.5cm;
+}
+
+p, h2, h3 {
+	orphans: 3;
+	widows: 3;
+}
+
+h2, h3 {
+        page-break-after: avoid;
+}
+}
+
+

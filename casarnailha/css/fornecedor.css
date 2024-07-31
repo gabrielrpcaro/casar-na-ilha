@@ -1,0 +1,466 @@
+.topo-fornecedor {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	padding-top: 31px;
+	margin-bottom: 20px;
+	border-top: 1px solid #e7edf1; 
+}
+.topo-fornecedor .logo-fornecedor {
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	margin-right: 23px;
+	overflow: hidden;
+	background-color: #F2E7F2;
+}
+.topo-fornecedor .logo-fornecedor .logoHACK.fornecido {
+	padding-bottom: 69.2%;
+}
+
+.topo-fornecedor .envolve-info.topi {
+	padding: 0;
+}
+
+.topo-fornecedor .categoria {
+	font: italic 15px/15px "Playfair Display", Georgia, serif;
+	color: #8e8e8e;
+	letter-spacing: 0.06em;
+}
+.topo-fornecedor .envolve-info .nome-social {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.topo-fornecedor .envolve-info .nome-social .nome-fornecedor {
+	margin: 0 12px 12px 0;
+	font: bold 32px/32px "Playfair Display", Georgia, serif;
+	color: #627284;
+	letter-spacing: 0.04em;
+}
+.topo-fornecedor .envolve-info .nome-social .social {
+	display: flex;
+    align-items: center;
+}
+.topo-fornecedor .envolve-info .nome-social .social a {
+	color: #c6ced1;
+	padding-left: 9px;
+	  -webkit-transition: color .5s ease;
+  -moz-transition: color .5s ease;
+  -o-transition: color .5s ease;
+  transition: color .5s ease;
+}
+.topo-fornecedor .envolve-info .nome-social .social a:hover {
+	color: #8d9ea4;
+}
+.topo-fornecedor .envolve-info .nome-social .social a:first-child {
+	padding-left: 0;
+}
+.topo-fornecedor .envolve-info .nome-social .social a i {
+	font-size: 25px;
+}
+.topo-fornecedor .info-contato {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.topo-fornecedor .info-contato div {
+	margin-left: 20px;
+	display: flex;
+	align-self: center;
+}
+.topo-fornecedor .info-contato div:first-child {
+	margin-left: 0px; 
+}
+.topo-fornecedor .endereco {
+	font: normal 11px Lato, sans-serif;
+	letter-spacing: 0.08em;
+	color: #8e8e8e;
+	line-height: auto;
+	text-transform: uppercase;
+	display: flex;
+	align-self: center;
+	margin: 0 0 6px 3px;
+}
+.topo-fornecedor .endereco i {
+	color: #c6ced1;
+font-size: 20px;
+padding-right: 10px;
+}
+.topo-fornecedor .info-contato .email a {
+	font: italic 13px "Playfair Display", serif;
+	letter-spacing: 0.08em;
+	color: #69747e;
+	line-height: auto;
+}
+.topo-fornecedor .info-contato .telefone, .telefone.wh a {
+	font: normal 12px Lato, sans-serif;
+	letter-spacing: 0.08em;
+	color: #8e8e8e;
+	line-height: auto;
+}
+.topo-fornecedor .info-contato i {
+color: #c6ced1;
+font-size: 20px;
+padding-right: 10px;
+}
+.telefone.wh i {
+	font-size: 24px;
+}
+
+.midia-fornecedor {
+	display: flex;	
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin-bottom: 33px;
+}
+.midia-fornecedor .fotao {
+	width: 74.1%;
+}
+.midia-fornecedor .capaHACK.fotone {
+	padding-bottom: 16.5%;
+	margin: 0;
+}
+.midia-fornecedor .capa {
+  -webkit-transition: transform 0.5s ease, filter 0.5s ease, opacity 0.5s ease;
+  -moz-transition: transform 0.5s ease, filter 0.5s ease, opacity 0.5s ease;
+  -o-transition: transform 0.5s ease, filter 0.5s ease, opacity 0.5s ease;
+  transition: transform 0.5s ease, filter 0.5s ease, opacity 0.5s ease;
+  transform-origin: center;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+  transform: translateZ(0);
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+}
+.midia-fornecedor .capaHACK:hover .capa {
+  transform: scale(1.1);
+}
+.midia-fornecedor .fotinhas {
+	display: flex;
+    flex-direction: column;
+    width: 25.9%;
+}
+.midia-fornecedor .fotinhas .fotinha {
+	width: 100%;
+}
+
+
+.midia-fornecedor .degrade.girado.vidi {
+  bottom: 0;
+  width: 100%;
+  height: 40%;
+  align-items: flex-end;
+  padding: 0 0 15px 17px;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 100%);
+  opacity: 1;
+}
+.midia-fornecedor .degrade.girado.vidi div {
+	display: flex;
+	align-items: center;
+}
+.midia-fornecedor .degrade.girado i {
+  font-size: 32px;
+  color: #ffffff;
+  margin-right: 13px;
+  -webkit-transition: transform 0.5s ease, filter 0.5s ease, opacity 0.5s ease, color .5s ease;
+  -moz-transition: transform 0.5s ease, filter 0.5s ease, opacity 0.5s ease, color .5s ease;
+  -o-transition: transform 0.5s ease, filter 0.5s ease, opacity 0.5s ease, color .5s ease;
+  transition: transform 0.5s ease, filter 0.5s ease, opacity 0.5s ease, color .5s ease;
+  transform-origin: center;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+  transform: translateZ(0);
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+}
+.midia-fornecedor .fotinha:hover i {
+	transform: scale(1.1);
+	color: #f1c488;
+}
+
+.midia-fornecedor .degrade.girado h2 {
+  margin: 2px 0 0 0;
+  font: 300 20px/20px "Khand", sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.04em;
+}
+
+.midia-fornecedor .fotinhas .capaHACK.fotinhe {
+	padding-bottom: 20.7%;
+	margin: 0
+}
+
+.fotinhas .veja-mais {
+	max-height: 119px;
+	text-align: center;
+	padding: 39px 51px 42px 44px;
+	display: flex;
+    align-items: center;
+    background-color: #d57474;
+    color: #f9f8f8;
+      -webkit-transition: background-color .5s ease;
+  -moz-transition: background-color .5s ease;
+  -o-transition: background-color .5s ease;
+  transition: background-color .5s ease;
+}
+.fotinhas .veja-mais:hover {
+	background-color: #c76b6b;
+}
+.veja-mais i {
+	font-size: 34px;
+	vertical-align: middle;
+	padding-right: 15px;
+}
+.veja-mais p {
+	margin: 0;
+	font: italic 17px/17px "Playfair Display", Georgia, serif;
+	letter-spacing: 0;
+}
+
+
+
+
+
+
+.info-contato i, .box-promocao i {
+	padding-right: 5px;
+	vertical-align: middle;
+	font-size: 26px;
+}
+
+
+
+
+
+.caixa.lo {
+	justify-content: inherit;
+}
+.caixa .ondinhabox.forni.lo {
+	margin: 4px 29px 0 0;
+}
+
+.descricao-fornecedor {
+	max-width: 643px;
+	margin: 0 39px 10px 0;
+	font: italic 15px/30px "Merriweather", serif;
+	color: #777777;
+	letter-spacing: 0;
+}
+.descricao-fornecedor p {
+	margin: 13px 0 0 0;
+}
+.descricao-fornecedor p:first-child {
+	margin: 0;
+}
+.box-promocao {
+	max-width: 284px;
+	border: 1px solid #dce2e6;
+	padding: 25px 20px 35px 28px;
+	margin-left: auto;
+	margin-bottom: auto;
+}
+.box-promocao i {
+	color: #627284;
+	margin-bottom: 4px;
+	padding-right: 11px;
+}
+.box-promocao i svg {
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+    fill: #627284;
+}
+.box-promocao h3 {
+	font: 300 23px/23px "Khand", sans-serif;
+	color: #627284;
+	text-transform: uppercase;
+	letter-spacing: 0;
+	margin: 0 0 6px 0;
+}
+.box-promocao .snip {
+	font: italic 14px/24px "Merriweather", serif;
+	color: #8c9294;
+}
+
+
+
+
+.boxcontato {
+width: 100%;
+padding: 45px 0 50px 0;
+display: flex;
+align-items: center;
+background-color: #f1dbda;
+margin-top: 25px;
+}
+.boxcontato .online {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 58px;
+  max-width: 551px;
+  margin-right: 50px;
+}
+.boxcontato .blink-me {
+	margin: 10px 15px 0 0;
+} 
+
+.boxcontato .blink-me {
+  animation: blinker 3s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.boxcontato .online i {
+	color: #b988bd;
+}
+.boxcontato .online h3 {
+  font: italic 33px/33px "Playfair Display", Georgia, serif;
+  letter-spacing: 0;
+  color: #b56969;
+  margin: 0;
+  max-width: 375px;
+}
+.boxcontato .colunacontato {
+  padding-right: 45px;
+  display: flex;
+  flex-direction: column;
+}
+.boxcontato .colunacontato b.chamada {
+	font: normal 12px/12px Lato, sans-serif;
+	letter-spacing: 0.08em;
+	color: #b56969;
+	text-transform: uppercase;
+	margin-bottom: 13px;
+}
+.boxcontato .colunacontato .botoes-contato, .botoes-contato div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+.botoes-contato .whatsapp {
+	margin-right: 17px;
+}
+.botoes-contato div {
+	width: 182px;
+	height: 48px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	border-radius: 20px;
+	background-color: #ffffff;
+  -webkit-transition: background-color .5s ease;
+  -moz-transition: background-color .5s ease;
+  -o-transition: background-color .5s ease;
+  transition: background-color .5s ease;
+}
+.botoes-contato div.zoom {
+	min-width: 182px;
+	width: auto;
+	padding: 0 20px;
+}
+.botoes-contato div.whatsapp {
+	width: 248px;
+}
+.whatsapp .numerinho, .zoom .numerinho {
+	font: italic 12px/15px "Merriweather", serif;
+	margin-left: 9px;
+	color: #8c9294;
+}
+
+.botoes-contato div i {
+	margin-right: 12px;
+	font-size: 21px;
+	color: #b56969;
+	-webkit-transition: color .5s ease;
+-moz-transition: color .5s ease;
+-o-transition: color .5s ease;
+transition: color .5s ease;
+}
+.botoes-contato div p {
+	margin: 0 0 4px 0;
+	font: bold 17px "Playfair Display", Georgia, serif;
+	color: #475360;
+	letter-spacing: 0.03em;
+	-webkit-transition: color .5s ease;
+-moz-transition: color .5s ease;
+-o-transition: color .5s ease;
+transition: color .5s ease;
+}
+.botoes-contato div:hover {
+	background: #d57474;
+}
+.botoes-contato div:hover p {
+	color: #ffffff;
+}
+.botoes-contato div:hover i {
+	color: #ffffff;
+}
+
+.linha h3.saiba {
+	font: italic 21px/27px "Playfair Display", Georgia, serif;
+	color: #a58561;
+}
+
+.links-externos {
+  margin: 0 0 55px 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.links-externos .linkinho {
+  width: 23.5%;
+	position: relative;
+}
+.links-externos .linkinho a .degrade.giradi {
+	width: 100%;
+	height: 40%;
+	bottom: 0;
+  padding: 0 17px 15px 17px;
+  align-items: flex-end;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 100%);
+  -webkit-transition: opacity 0.5s ease;
+  -moz-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+  opacity: 0;
+}
+.links-externos .linkinho a .degrade.giradi h2 {
+	margin: 0;
+	font-size: 17px;
+	line-height: 21px;
+}
+.links-externos .linkinho a:hover .degrade.giradi {
+	opacity: 1;
+}
+
+.links-externos .linkinho .instaHACK.linkee {
+  padding-top: 63.8%;
+}
+
+.links-externos .linkinho .instaHACK .insta {
+  -webkit-transition: transform 0.5s ease, filter 0.5s ease;
+  -moz-transition: transform 0.5s ease, filter 0.5s ease;
+  -o-transition: transform 0.5s ease, filter 0.5s ease;
+  transition: transform 0.5s ease, filter 0.5s ease;
+  transform-origin: center;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+  transform: translateZ(0);
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+}
+.links-externos .linkinho:hover .insta {
+  transform: scale(1.1);
+}
+.linkinhofake {
+  width: 23.5%;	
+}
